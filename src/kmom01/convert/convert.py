@@ -13,7 +13,7 @@ def convert():
         "S: Speed, km/h --> mph\n"
     ).lower()
 
-    if convert_type == "p":
+    if convert_type == "P":
         discount = 10
         tax_rate= 0.20
         final_Price = (value - discount ) * (1 + tax_rate)
@@ -22,7 +22,7 @@ def convert():
             f"{tax_rate*100}% tax is: {final_Price:.2f} kr"
         )
 
-    elif convert_type == "s":
+    elif convert_type == "S":
         mph = value * 0.62137
         print(f"{value} km/h is equivalent to {mph:.2f} mph")
 
