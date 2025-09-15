@@ -2,6 +2,12 @@ version = 1
 revision = 3
 requires-python = ">=3.13"
 
+[manifest]
+members = [
+    "example",
+    "python-abcd25",
+]
+
 [[package]]
 name = "astroid"
 version = "3.3.11"
@@ -28,6 +34,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/12/80/630b4b88364e9a8c8
 wheels = [
     { url = "https://files.pythonhosted.org/packages/50/3d/9373ad9c56321fdab5b41197068e1d8c25883b3fea29dd361f9b55116869/dill-0.4.0-py3-none-any.whl", hash = "sha256:44f54bf6412c2c8464c14e8243eb163690a9800dbe2c367330883b19c7561049", size = 119668, upload-time = "2025-04-16T00:41:47.671Z" },
 ]
+
+[[package]]
+name = "example"
+version = "0.1.0"
+source = { virtual = "example" }
 
 [[package]]
 name = "go-task-bin"

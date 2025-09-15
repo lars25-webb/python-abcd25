@@ -9,3 +9,8 @@ dependencies = [
     "python-tester>=3",
     "ruff>=0.12",
 ]
+
+[tool.uv.workspace]
+members = [
+    "example",
+]
